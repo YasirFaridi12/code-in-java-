@@ -1,0 +1,21 @@
+public class FunctionsExample {
+
+    // Method to add two numbers
+    public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+
+    // Method to print message
+    public static void greet() {
+        System. out.println("Welcome to Java Programming!");
+    }
+
+    public static void main(String[] args) {
+
+        greet();
+
+        int result = addNumbers(10, 20);
+
+        System.out.println("Sum = " + result);
+    }
+}
